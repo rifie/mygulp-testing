@@ -1,0 +1,28 @@
+{
+  "name": "Gulp with Bower",
+  "version": "0.0.0",
+  "authors": [
+    "riefandania@gmail.com"
+  ],
+  "description": "Rifie settings on Gulp",
+  "keywords": [
+    "gulp",
+    "bower"
+  ],
+  "license": "MIT",
+  "main": "app/*",
+  "homepage": "rifie.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies" : {
+    "fontawesome": "~4.3.0",
+    "uikit": "~2.20.0",
+    "jquery": "~2.1.3"
+  }
+}

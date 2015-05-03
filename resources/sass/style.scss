@@ -1,0 +1,12 @@
+@import "uikit-mixins";
+@import "uikit";
+@import "font-awesome";
+
+
+$ahoy: blue;
+
+.ahoy {
+	color : $ahoy;
+}
+// your custom code goes here, e.g. mixins, variables
+
