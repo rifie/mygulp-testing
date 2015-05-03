@@ -130,7 +130,7 @@ gulp.task('watch', function() {
   // Watch .scss files
   gulp.watch(config.sassPath + '/**/*.scss', ['styles']);
   // Watch image files
-  gulp.watch('src/images/**/*', ['images']);
+  gulp.watch('./resources/images/**/*', ['images']);
   // Watch jslint
   gulp.watch('./resources/js/*.js', ['lint', 'scripts']);
 
